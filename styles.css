@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("images/pattern-background-desktop.svg") hsl(225, 100%, 94%) no-repeat fixed;
+    max-width: 1440px;
+}
+
+.c-m-card {
+    width: 360px;
+    background: #fff;
+    border-radius: 15px;
+    margin: 20vh auto;
+}
+
+.c-m-card img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.c-m-card-section1 {
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-m-card-section1 h2 {
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    color: hsl(223, 47%, 23%);
+}
+
+.c-m-card-section1 p {
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+.section1-part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px 0px 0px;
+    padding: 16px;
+    background: hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.section1-part2 div {
+    display: flex;
+    align-items: center;
+}
+
+.section1-part2 div img {
+    object-fit: contain;
+    margin-right: 15px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+}
+
+.price b {
+    color: hsl(223, 47%, 23%);
+}
+
+.section1-part2 img {
+    width: 45px;
+}
+
+.section1-part2 a {
+    color: #3829e0;
+    font-weight: 700;
+}
+
+.section1-part2 a:hover {
+    color: hsl(224, 23%, 55%)
+}
+
+.c-m-card-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-m-card-buttons [type="submit"] {
+    margin: 0px 35px 5px 35px;
+    padding: 12px;
+    background: #3829e0;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 12px 15px hsl(224, 23%, 55%);
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+}
+
+.c-m-card-buttons [type="submit"]:hover {
+    background: hsl(224, 23%, 55%);
+    cursor:pointer;
+}
+
+.c-m-card-buttons [type="reset"] {
+    margin: 15px 100px 30px 100px;
+    padding: 5px;
+    background: transparent;
+    border: none;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    transition: all 0.3s ease-in-out;
+}
+.c-m-card-buttons [type="reset"]:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:375px) {
+   
+    body {
+        background: url("images/pattern-background-mobile.svg") hsl(225, 100%, 94%) no-repeat; 
+    } 
+
+    .c-m-card {
+        width: 330px;
+        background: #fff;
+        border-radius: 15px;
+        margin: 5vh auto;
+    }
+}
