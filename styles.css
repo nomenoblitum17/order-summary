@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 body {
@@ -9,16 +10,19 @@ body {
 }
 
 .c-m-card {
-    width: 360px;
+    width: 33%;
+    max-width: 380px;
+    min-width: 380px;
     background: #fff;
     border-radius: 15px;
-    margin: 20vh auto;
+    margin: 3% auto;
 }
 
 .c-m-card img {
     width: 100%;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    object-fit: cover;
 }
 
 .c-m-card-section1 {
@@ -34,6 +38,7 @@ body {
     padding: 0;
     margin-bottom: 15px;
     color: hsl(223, 47%, 23%);
+    font-weight: 700;
 }
 
 .c-m-card-section1 p {
@@ -43,6 +48,8 @@ body {
     padding: 0;
     margin-bottom: 15px;
     color: hsl(224, 23%, 55%);
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .section1-part2 {
@@ -60,8 +67,9 @@ body {
     align-items: center;
 }
 
-.section1-part2 div img {
+.section1-part2 img {
     object-fit: contain;
+    width: 80px;
     margin-right: 15px;
 }
 .price{
@@ -69,10 +77,12 @@ body {
     flex-direction: column;
     align-items: center;
     line-height: 1.5;
+    margin-right: 15%;
 }
 
 .price b {
     color: hsl(223, 47%, 23%);
+    font-weight: 700;
 }
 
 .section1-part2 img {
@@ -132,7 +142,9 @@ body {
     } 
 
     .c-m-card {
-        width: 330px;
+        width: 90%;
+        max-width: 380px;
+        min-width: 90%;
         background: #fff;
         border-radius: 15px;
         margin: 5vh auto;

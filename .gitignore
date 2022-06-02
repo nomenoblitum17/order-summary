@@ -6,7 +6,6 @@
 *.fig
 
 design/
-images/
 readme-template.md
 readme.md
 style-guide.md
